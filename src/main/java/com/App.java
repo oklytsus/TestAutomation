@@ -53,7 +53,7 @@ public class App {
         lname.clear();
         lname.sendKeys("lytsus");
         Thread.sleep(2000); // For Presentation
-        System.out.println("\tLirst Name typed");
+        System.out.println("\tLast Name typed");
         //
         WebElement email = driver.findElement(By.id("input-email"));
         email.click();
