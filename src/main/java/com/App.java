@@ -65,7 +65,7 @@ public class App {
         WebElement password = driver.findElement(By.id("input-password"));
         password.click();
         password.clear();
-        password.sendKeys("\tqwerty");
+        password.sendKeys("qwerty\t");
         Thread.sleep(2000); // For Presentation
         System.out.println("\tpassword typed");
         //
